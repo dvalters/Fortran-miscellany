@@ -53,6 +53,21 @@ print *,' ',kind(i1),' ',huge(i1)
 print *,' ',kind(i2),' ',huge(i2)
 print *,' ',kind(i3),' ',huge(i3)
 print *,' ',kind(i4),' ',huge(i4)
- 
 
+print *,' ' 
+print *,' real values'
+print *,' kind    huge                  ' , &
+'                precision       epsilon'
+print *,' '
+print *,' ',kind(r),' ',huge(r),&
+'             ',precision(r),' ',epsilon(r)
+print *,' '
+print *,' ',kind(r1),' ',huge(r1),&
+'             ',precision(r1),' ',epsilon(r1)
+print *,' ',kind(r2),' ',huge(r2),&
+' ',precision(r2),' ',epsilon(r2)
+print *,' ',kind(r3),' ',huge(r3),&
+' ',precision(r3),' ',epsilon(r3)
+
+end program ch0506
 
