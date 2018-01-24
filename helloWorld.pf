@@ -1,0 +1,8 @@
+! from helloWorld.pf
+@test
+subroutine testHelloWorld()
+  use pfunit_mod
+  implicit none
+  @assertEqual("Hello World!", "Hello World!")
+end subroutine testHelloWorld
+
